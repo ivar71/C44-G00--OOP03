@@ -10,7 +10,7 @@ namespace steph
     {
         public int Gradelvl { get; set; }
 
-        public Student(int id, string name, string email, int gradeLevel) : base(id, name, email)
+        public Student(int age, string Lname, string Fname, int gradeLevel) : base(age, Fname, Lname)
         {
             Gradelvl = gradeLevel;
         }

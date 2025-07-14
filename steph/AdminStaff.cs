@@ -10,14 +10,14 @@ namespace steph
     {
         public string Role { get; set; }
 
-        public AdminStaff(int id, string name, string email, string role) : base(id, name, email)
+        public AdminStaff(int age, string Fname, string Lname, string role) : base(age, Fname, Lname)
         {
             Role = role;
         }
 
         public override string GetDetails()
         {
-            return $", Role: [{Role}]";
+            return $", Rolيe: [{Role}]";
         }
     }
 }

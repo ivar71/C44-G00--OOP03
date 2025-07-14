@@ -10,7 +10,7 @@ namespace steph
     {
         public string Subject { get; set; }
 
-        public Teacher(int id, string name, string email, string subject) : base(id, name, email)
+        public Teacher(int age, string Fname, string Lname, string subject) : base(age, Fname, Lname)
         {
             Subject = subject;
         }

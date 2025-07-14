@@ -8,19 +8,19 @@ namespace steph
 {
     internal class Person
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
+        public int age { get; set; }
+        public string Fname { get; set; }
+        public string Lname { get; set; }
 
-        public Person(int id, string name, string email)
+        public Person(int id, string fname, string lname)
         {
-            Id = id;
-            Name = name;
-            Email = email;
+            age = id;
+            Fname = fname;
+            Lname = lname;
         }
         public virtual string GetDetails()
         {
-            return $"ID: [{Id}], Name: [{Name}], Email: [{Email}]";
+            return $"ID: [{age}], Name: [{Fname}], Email: [{Lname}]";
         }
     }
 }
